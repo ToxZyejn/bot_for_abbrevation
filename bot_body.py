@@ -1,15 +1,9 @@
 import telebot
-#from aiogram import Bot, Dispatcher, types
-#from aiogram.types.web_app_info import WebAppInfo
-from docx import Document
 from telebot import types
-import webbrowser
 import json
-import pandas as pd
-from docx import Document
-from docx.shared import Inches
 
-bot = telebot.TeleBot('5861648013:AAG0ICuPqc7Zf8KEdgvh1NAVQ0zybw28LSc')
+
+bot = telebot.TeleBot('YOUR TOKEN')
 
 with open('abbreviaturka.json', 'r') as file:
     abbreviations = json.load(file)
